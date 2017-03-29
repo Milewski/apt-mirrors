@@ -15,5 +15,5 @@ echo "deb http://mirrors.aliyun.com/ubuntu/ $DISTRO main restricted universe mul
       deb-src http://mirrors.aliyun.com/ubuntu/ $DISTRO-security main restricted universe multiverse 
       deb-src http://mirrors.aliyun.com/ubuntu/ $DISTRO-updates main restricted universe multiverse 
       deb-src http://mirrors.aliyun.com/ubuntu/ $DISTRO-proposed main restricted universe multiverse 
-      deb-src http://mirrors.aliyun.com/ubuntu/ $DISTRO-backports main restricted universe multiverse "
+      deb-src http://mirrors.aliyun.com/ubuntu/ $DISTRO-backports main restricted universe multiverse " \
       | cat - /etc/apt/sources.list > temp && mv temp /etc/apt/sources.list
