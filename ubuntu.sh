@@ -6,7 +6,7 @@ if [ "$#" == 0 ] || [ "$#" -gt 1 ]; then
     DISTRO=xenial
 fi
 
-echo "deb http://mirrors.aliyun.com/ubuntu/ ${DISTRO}} main restricted
+echo "deb http://mirrors.aliyun.com/ubuntu/ ${DISTRO} main restricted
 deb http://mirrors.aliyun.com/ubuntu/ ${DISTRO}-updates main restricted
 deb http://mirrors.aliyun.com/ubuntu/ ${DISTRO} universe
 deb http://mirrors.aliyun.com/ubuntu/ ${DISTRO}-updates universe
