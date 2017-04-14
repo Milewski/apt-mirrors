@@ -1,6 +1,6 @@
 ## Usage
 
-Grab this to your server with [`curl`](raw/master/ubuntu.sh), [`wget`](raw/master/ubuntu.sh) or [`copy and paste`](raw/master/ubuntu.sh). give it executable permission with `chmod +x ubuntu.sh` and run it `./ubuntu.sh`
+Grab this to your server with [`curl`](../../raw/master/ubuntu.sh), [`wget`](../../raw/master/ubuntu.sh) or [`copy and paste`](../../raw/master/ubuntu.sh). give it executable permission with `chmod +x ubuntu.sh` and run it `./ubuntu.sh`
 
 ## Troubleshooting
 
